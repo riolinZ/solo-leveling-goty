@@ -1,0 +1,15 @@
+.cabeçalho-menu{
+   width: 25px;
+   height: 25px;
+   background-image: url();
+   display: inline-block;
+
+}
+
+.cabeçalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
