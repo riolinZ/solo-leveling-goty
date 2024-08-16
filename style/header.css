@@ -13,5 +13,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
 
+.container {
+    display: flex;
+    align-items: cente;
+}
+
+.container__imagem{
+    padding: lem;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+}
+
+.container__botao:checked ~ .lista-menu{
+    display: block;
 }
